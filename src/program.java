@@ -96,34 +96,34 @@ public class program{
 
         // =================================================================================================
 
-        // int temp = 2;
+        int temp = 2;
 
-        // if(temp>=35) {
-        //     System.out.println("Its hot");
-        // }
+        if(temp>=35) {
+            System.out.println("The temperature is High");
+        }
 
-        // else if (temp>=25 && temp<35) {
-        //     System.out.println("Normal NOrmal");
-        // }
-
-        // else {
-        //     System.out.println("Cold hai");
-        // }
-
-        // =================================================================================================
-
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Your are playing a gane. Press q or Q to quit the game!");
-        String response = scanner.next();
-
-        if (!response.equals("Q") && !response.equals("q")) {
-            System.out.println("You quit the game!");                              // and: &&,    or: ||,    not: !
+        else if (temp>=25 && temp<35) {
+            System.out.println("The temperature is Normal");
         }
 
         else {
-            System.out.println("You are still playing the game 'Pew Pew'");
+            System.out.println("The temperature is Low");
         }
+
+        // =================================================================================================
+
+        // Scanner scanner = new Scanner(System.in);
+
+        // System.out.println("Your are playing a gane. Press q or Q to quit the game!");
+        // String response = scanner.next();
+
+        // if (!response.equals("Q") && !response.equals("q")) {
+        //     System.out.println("You quit the game!");                              // and: &&,    or: ||,    not: !
+        // }
+
+        // else {
+        //     System.out.println("You are still playing the game 'Pew Pew'");
+        // }
 
 
 
